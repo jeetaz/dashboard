@@ -65,8 +65,8 @@ $(function () {
 
     //calculate rows
     function calculateRowsCols(_minHeight, _minWidth) {
-        var cuttOffWidth = 768;
-        var cuttOffHeight = 450;
+        //var cuttOffWidth = 768;
+        //var cuttOffHeight = 450;
         var minHeight = _minHeight;
         var minWidth = _minWidth;
         var currentWidth = $('.items').width();
