@@ -1,0 +1,48 @@
+﻿body {
+    font-family: Arial;
+    background-color: #222;
+    font-size: 12px;
+    color: white;
+}
+
+a {
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.items {
+    list-style-type: none;
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    color: #222;
+    text-align: center;
+}
+
+    .items li {
+        border: 1px solid silver;
+        background: #fff;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: move;
+        -webkit-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    }
+
+        .items li.dragging:nth-child(n) {
+            -webkit-transform: none;
+            -webkit-transition: none;
+            transform: none;
+            transition: none;
+            box-shadow: 0 0 8px black;
+            background-color: white;
+            border: none;
+        }
