@@ -9,4 +9,6 @@ Possible extensions could be saving the state of the sortable layout and rearran
 
 Reference: http://blog.stevensanderson.com/2013/03/15/animating-lists-with-css-3-transitions/
 
+Working demo: http://jsfiddle.net/jeetaz/CdtB3/
+
 @jeetaz
