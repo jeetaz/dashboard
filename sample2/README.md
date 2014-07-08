@@ -11,6 +11,6 @@ References:
 http://gridster.net/ 
 http://www.highcharts.com/demo
 
-Working demo: http://jsfiddle.net/jeetaz/CdtB3/
+Working demo: http://jsfiddle.net/jeetaz/tE3s5/
 
 @jeetaz
